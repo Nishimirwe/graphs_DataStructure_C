@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1627412807 source:d:\lessons\coding\c++\codeblocks\graphs\main.cpp
+	"GraphClass.h"
+
+1627413668 d:\lessons\coding\c++\codeblocks\graphs\include\graphclass.h
+	<iostream>
+	<list>
+	<stack>
+	<queue>
+	<map>
+
+1627414094 source:d:\lessons\coding\c++\codeblocks\graphs\src\graphclass.cpp
+	"GraphClass.h"
+
