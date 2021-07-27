@@ -12,6 +12,7 @@ void GraphClass::addEdge(int v, int w)
 }
 void GraphClass::BFS(int start)
 {
+    // BFS traversal use queue data structure
     map<int,bool> visited;
     queue<int> q;
     q.push(start);
@@ -40,6 +41,7 @@ void GraphClass::BFS(int start)
 
 void GraphClass::DFS(int start)
 {
+    // DFS traversal use stack data structure
     map<int,bool> visited;
     stack<int> stk;
     stk.push(start);
